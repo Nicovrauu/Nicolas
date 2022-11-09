@@ -2,7 +2,8 @@ import { Image, Text, View } from "react-native";
 
 export const Home = ({ navigation }) => (
     <View style={fundo}>
-        <Text style={divStyle}>BOAS VINDAS AO MEU BLOG</Text>
+        <Text style={divStyle}>BOAS VINDAS AO MEU BLOG A</Text>
+        <Text style={divStyle}>BOAS VINDAS AO MEU BLOG A</Text>
         <Image style={marca} source={{ uri: 'https://logosmarcas.net/wp-content/uploads/2020/05/Slipknot-Logo.png' }} />  
     </View>
 )
